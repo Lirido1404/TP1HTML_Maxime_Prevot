@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1,h2,h3{
+    color: #161616;
+}
+
+
+table{
+    border-collapse: collapse;
+    height: 100%;
+}
+
+tr{
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-color: #161616;
+}
+
+td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+
+td::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 20%;
+    bottom: 20%;
+    width: 2px;
+    background-color: #161616;
+}
+
+td::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 20%;
+    bottom: 20%;
+    width: 2px;
+    background-color: #161616;
+}
+
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    height: 140px;
+    width: 100%;
+    
+}
+
+.d2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px 1px rgb(202, 202, 202);
+
+}
+img{
+    border-radius: 6px;
+    margin-top: 10px;
+}
+p{
+    padding: 6px;
+    margin-left: 30px;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    height: 100vh;
+    grid-template-areas: 
+    "colonnegauche main"
+    ;
+    background-color: #F2F4F9;
+}
+
+
+.main{
+    grid-area: main;
+    padding : 24px
+
+}
+
+
+.colonnegauche{
+    grid-area: colonnegauche;
+    padding: 14px;
+    
+}
+
+.sep1{
+    margin-top: 30px;
+    
+}
+
+
+.d3 {
+    background-color: white;
+    border-radius: 6px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-grow: 1; 
+    box-shadow: 0px 0px 6px 1px rgb(202, 202, 202);
+
+}
+
+.ex1{
+
+}
+.ex{
+    margin-top: 70px;
+}
+.ex1{
+    margin-top: 30px;
+}
+.child1Deb{
+    margin-top: 20px;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+ol li{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px 1px rgb(202, 202, 202);
+}
+
+.d2d1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    position: sticky;
+    top: 20px;
+}
+
+.d2d1 .ad2d1{
+    background-color: #F2F4F9;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.imx{
+    border: 1px solid black;
+}

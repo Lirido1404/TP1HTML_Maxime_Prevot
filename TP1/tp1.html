@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Compte Rendu de TP1</title>
+    <link rel="stylesheet" href="tp1.css">
+  </head>
+  <body id="body">
+    <div class="colonnegauche">
+      <div class="d2">
+        <div class="d2d1">
+          <a href="#body" class="ad2d1">Début</a>
+          <a href="#ex1" class="ad2d1">Exercice 1</a>
+          <a href="#ex2" class="ad2d1">Exercice 2</a>
+          <a href="#ex3" class="ad2d1">Exercice 3</a>
+          <a href="#ex4" class="ad2d1">Exercice 4</a>
+        </div>
+
+
+      </div>
+     </div>
+   
+
+   
+
+   <div class="main">
+    <div class="header">
+<div class="d3">
+  <h1>Compte Rendu de TP1</h1>
+
+</div>     
+      <table>
+        <tr>
+            <td colspan="2"></td>
+            <td>Maxime Prévot</td>
+        </tr>
+        
+        <tr>
+            <td>ESIPE INFO 1</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="3">TP 1 de Programmation Web</td>
+        </tr>
+    </table>
+     </div>
+     <hr class="sep1">
+
+   <h3 class="ex1" id="ex1">Exercice 1</h3>
+   <ol class="child1Deb">
+    <li><p>Copié-collé du code</p><p>Pour afficher les caractères spéciaux il faut ajouter la balise meta avec l'attribut charset="UTF-8" ce qui va changer l'encodage en UTF-8</p></li>
+
+    <li>
+   <h3>Q2) A quoi servent les tags h1, h2 et h3 ?</h3> 
+   <p>
+     h1, h2, ... , h6 dont des balises qui permettent d'afficher des titres.
+   </p>
+  </li>
+   <li>
+   <h3>
+    Q3) A quoi sert le tag <i>p</i> ?
+   </h3>
+  
+
+  
+   <p>
+    Le tag <i>p</i> sert à insérer un paragraphe, plus simplement,afficher du texte.
+   </p>
+  </li>
+
+  <li>
+    <h3>Q4) Ajout d'une phrase</h3>
+   <p>
+    Les tags HTML commencent par une balise ouvrante &lt;foo&gt; et finissent
+        par une balise fermante &lt;/foo&gt;
+   </p>
+  </li>
+  <li>
+   <h3>Q5) Comment mettre en gras ou en italique ?</h3>
+   <p>
+        Pour mettre en gras on peut mettre le terme que l'on veut mettre entre la balise &lt;b&gt; <b> et</b> &lt;/b&gt;
+   </p>
+  </li>
+
+  <li>
+   <h3>Q6) Et comment faire pour mettre un mot à la fois en gras et en italique ? </h3>
+   <p>
+    Pour mettre notre mot souhaité en gras et en italique il suffit de le mettre entre les balises &lt;b&gt;&lt;i&gt; et &lt;/b&gt;&lt;/i&gt;
+   </p>
+   <p>On peut aussi utiliser du CSS avec font-weight et font-style</p>
+  </li>
+
+  <li>
+   <h3>Q7) On souhaite que le titre de la fenêtre du navigateur soit "Compte Rendu de TP1", comment faire ? </h3>
+   <p>
+    Il suffit de mettre que l'on souhaite entre les balises &lt;title&gt; et &lt;/title&gt; elles mêmes comprisent dans les balises &lt;head&gt; et &lt;/head&gt;
+   </p>
+  </li>
+
+    <li>
+    <h3>Q8)  Ajoutez un lien (le tag A) vers le cours avec comme titre cours de programmation web. </h3>
+    <a href="https://monge.univ-mlv.fr/ens/IR/IR1/2024-2025/ProgWeb/td01.php">Cours de programmation web</a>
+  </li>
+
+  <li><h3>Q9) Dessin arbre HTML</h3></li>
+
+  <li>
+    <h3>Q10)</h3> 
+    <img src="./mon-arbre-a-moi.jpg" alt="Image de mon arbre HTML" style="width: 600px; height: 500px;">
+  </li>
+  </ol>
+
+
+
+
+
+   <h3 class="ex" id="ex2">Exercice 2</h3>
+   <ol class="child1Deb">
+    <li>
+   <h3>Q1)</h3>
+   <p>Le nom de la machine correspond au sous-domaine "monge",et le nom de domaine est "univ-mlv.fr"</p>
+  </li>
+  <li>
+   <h3>Q2)</h3>
+   <p>
+    Première ligne de réponse : <b> <i>monge.univ-mlv.fr has address 193.55.61.150</i></b>
+    
+   </p>
+   <p>Deuxième ligne : <b><i>monge.univ-mlv.fr mail is handled by 10 monge.univ-mlv.fr.</i></b></p>
+   <img src="./htmlhost.png" alt="Capture ecran commande host">
+  </li>
+
+   
+
+
+   <li>
+   <h3>Q3)</h3>
+   <p>Cela marche toujours, si l'on remplace les adresses ip par des noms de domaines c'est parce que les humains ne pourraient pas retenir toutes les adresses ip disponibles sur le web.
+    Il est plus facile pour des humains de mémoriser des noms.
+   </p>
+  </li>
+
+  <li>
+   <h3>Q4)</h3>
+   <p>Adresse ip site Forax : 185.199.110.153</p>
+   <p>On tombe sur une page avec une erreur 404 car le serveur ne reçoit pas d'indication sur le site spécifique que l'on souhaite consulter, ce qui peut le perdre car il ne peut pas savoir quel contenu il doit afficher.</p>
+  </li>
+
+  <li>
+   <h3>Q5)</h3>
+   <p>La commande traceroute permet de suivre le chemin emprunté par les paquets vers l'adresse ip de destination</p>
+   <p>le nom du 1er routeur de sortie que l'on rencontre est : fwint1infpedago.univ-eiffel.fr</p>
+   <p>Le réseau sur lequel est connecté l'université est : fwext1.univ-eiffel.fr</p>
+   <p>Les autres réseaux traversés sont les réseaux RENATER et GEANT</p>
+   <img src="./tracerouteforax.png" alt="traceroute site forax">
+   <p>(La réponse sur cette image n'est pas celle attendue puisque je l'ai executé à partir de mon réseau wifi personnel, néanmoins les réponses ci-dessus proviennent du réseau de l'école )</p>
+  </li>
+
+
+  <li>
+   <h3>Q6)</h3>
+   <p>Le nom de la machine hébérgeant le site web est : root.mai-ko.link &gt; www.mai-ko.com</p>
+   <p>Le nom de domaine du site est root.mai-ko.com</p>
+   <p>En faisant : whois mai-ko.com dans le terminal, j'ai pu voir que le Tech State/Province de ce site est à  <b>Osaka</b> </p>
+   <p>La commande ping m'indique que j'arrive à envoyer un paquet chez root.mai-ko.link mais qu'aucun paquet n'a été reçu en retour. Cependant, lorsque je ping google.com j'obtiens bien un paquet en retour avec un ttl et un temps de retour indiqué.</p>
+   <p>Lorsque je ping forax.github.io, j'obtiens un ttl de 58 et un temps de réponse moyen par paquet de 40.0ms, ce qui me semble très peu (très rapide)</p>
+   <p>Je peux en déduire que le serveur sur lequel est stocké le site forax.github.io est plus proche de moi (en terme de réseau) et qu'il passe par moins de routeurs (Il y a moins de "hop")</p>
+   <p>Il est possible que mai-ko bloque ma requête ping (procédure qui permet d'éviter les spams pings) ou que le paquet ne soit pas retourné car son chemin de retour effectue trop de "hop" et ne parvient pas à destination.</p>
+    <img src="./osakacity.png" alt="Ville osaka commande terminal">
+    <img src="./pingmaiko.png" alt="ping maiko terminal">
+    <img src="./pingforax.png" alt="ping forax terminal">
+  </li>
+
+  </ol>
+
+
+   <h3 class="ex" id="ex3">Exercice 3 </h3>
+   <ol class="child1Deb">
+    <li>
+   <h3>Q1)</h3>
+   <p>/etc/services associe des noms de services a des ports</p>
+  </li>
+  <li>
+   <h3>Q2)</h3>
+   <p>Commande pour trouver les ports sur lesquels fonctionnent TCP et HTTP : <i>grep '^http' /etc/services</i></p>
+   <p>Resultats : port HTTP/TCP &gt; 80</p>
+   <img src="./greptcp.png" alt="grep tcp http">
+  </li>
+
+  <li>
+   <h3>Q3)</h3>
+   <p>Voici le header que l'on obtient : </p> <br>
+   <p>
+    HTTP/1.0 404 Not Found <br>
+    Content-Type: text/html <br>
+    Date: Fri, 04 Oct 2024 13:36:17 GMT <br>
+    Server: ECAcc (dcd/7D26) <br>
+    Content-Length: 345 <br>
+    Connection: close <br><br>
+    
+    &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;<br>
+      &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt; <br>
+      &lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;<br>
+          &lt;head&gt;<br>
+              &lt;title&gt;404 - Not Found&lt;/title&gt;<br>
+          &lt;/head&gt;<br>
+          &lt;body&gt;<br>
+              &lt;h1&gt;404 - Not Found&lt;/h1&gt;<br>
+          &lt;/body&gt;<br>
+      &lt;/html&gt;<br>
+      
+   </p>
+  </li>
+<li>
+   <h3>Q4) </h3>
+   <p>La 1ere valeur est le protocole utilisé, la 2eme est un code status sur la recherche, et la 3eme indique à quoi correspond le code status précédemment relevé.</p>
+   <p>Ici, la page n'a pas été trouvée, c'est du au protocole 0.9 de HTTP que l'on a utilisé.</p>
+  </li>
+
+  <li>
+   <h3>Q5)</h3>
+   <p>Content-type indique le type de contenu que l'on retrouve dans le corps de la réponse.</p>
+  </li>
+
+  <li>
+   <h3>Q6)</h3>
+   <p>Content-length indique la taille du corps de la réponse en octets ( != du nombre de caractère )</p>
+  </li>
+
+  <li>
+   <h3>Q7)</h3>
+   <p>3 premières valeurs de l'en-tête : HTTP/1.1 200 OK</p>
+   <p>Cette fois utilise le protocole 1.1 de HTTP et on réçoit un code 200 qui nous indique que la page est bien trouvée</p>
+   <p>Cette fois puisque la page à été trouvée, la taille du corps de la réponse est beaucoup plus grande que lorsque la page n'était pas trouvée.</p>
+   <p>Quant au Content-Type, on retrouve toujours le format HTML mais cette fois avec le charset UTF-8 qui correspond à l'encodage utilisé.</p>
+    <img src="./examplecomprotocole1plus.png" alt="netcat example.com protocole 1 plus">
+  </li>
+
+  <li>
+   <h3>Q8)</h3>
+   <p>On doit fournir le host dans cette version de protocole HTTP puisque cela permet d'indiquer au serveur sur quel nom de domaine on veut pointer précisement.</p>
+   <p>Il y a aussi un rapport avec l'hebergement virtuel.</p>
+  </li>
+
+  <li>
+   <h3>Q9)</h3>
+   <p>Lorsque l'on pointe sur le domaine www.forax.org,on obtient un code 302, qui indique que la ressource est temporairement déplacée vers l'URL contenue dans l'en-tête "Location"</p>
+   <p>La valeur de Location correspond alors à la veritable URL ou est redirigé le client.</p>
+  </li>
+  </ol>
+   <h3 class="ex" id="ex4">Exercice 4</h3>
+   
+   <ol class="ex1">
+    <li>
+      <h3>Q2)</h3>
+      <p>Ayant déjà fais de l'HTML, je savais que j'allais utiliser l'attribut colspan qui peut se mettre à la balise &lt;table&gt;. Pour trouver plus de précision sur cet attribut ainsi que sa balise associée, il ne suffisait plus qu'à rechercher ces termes avec un CTRL + f.</p>
+   <p>On obtient le fil d'ariane suivant : 4.9.1 the table element -> Content attribute</p>
+   <p>Pour faire ce cartouche j'ai indiqué que le nombre de colonnes était de 3 et ai joué sur les colspan pour indiquer quelle taille les cellules devaient avoir.</p>
+   <p>Ensuite avec du CSS j'ai appliqué des bordures aux cellules, notamment des bordures à pointillés en haut et en bas des lignes. Quant aux bordures droites et gauches, ce sont des pseudos-éléments qui me permettent de rajouter un rectangle noir de petite taille qui fait office de tiret (illusion)</p>
+      <img src="./validateurhtml.png" alt="validation html" class="imx">
+      <p>Validation W3C</p>
+  </li>
+   </ol>
+  </div>
+
+  </body>
+</html>
